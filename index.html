@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Game">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JS Game</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <script src="js/gamemanager.js"></script>
+  <script src="js/player.js"></script>
+  <script src="js/enemy.js"></script>
+</head>
+
+<body>
+
+  <div class="header">
+    <p>Play the greatest RPG ever to be made!</p>
+    <h2>Choose your character!</h2>
+  </div>
+
+  <div class="interface">
+    <a href="#" onclick="GameManager.setGameStart('Knight')">
+      <img src="img/avatar-player/knight.png" alt="knight">
+      <div>
+        <h3>Knight</h3>
+        <p>Swordsmen who have proven their mettle and courage in the heat of battle are carefully observed by the Pronteran Royal Armory.</p>
+      </div>
+    </a>
+
+    <a href="#" onclick="GameManager.setGameStart('Assassin')">
+      <img src="img/avatar-player/assassin.png" alt="assassin">
+      <div>
+        <h3>Assassin</h3>
+        <p>Assassins seek to kill and kill they do. Preferring to operate in the shadows, Assassins are skilled in blindingly fast combat.</p>
+      </div>
+    </a>
+
+    <a href="#" onclick="GameManager.setGameStart('Hunter')">
+      <img src="img/avatar-player/hunter.png" alt="hunter">
+      <div>
+        <h3>Hunter</h3>
+        <p>Hunters are long-range combatants who utilize falcons and wolves to take down their adversaries.</p>
+      </div>
+    </a>
+
+    <a href="#" onclick="GameManager.setGameStart('Wizard')">
+      <img src="img/avatar-player/wizard.png" alt="wizard">
+      <div>
+        <h3>Wizard</h3>
+        <p>Wizards are powerful offensive magic users. They rely on dangerous magic strikes as well as devastating Area of Effect spells to wreak havoc.</p>
+      </div>
+    </a>
+  </div>
+
+  <div class="actions">
+
+  </div>
+
+  <div class="arena">
+
+  </div>
+
+  <div class="enemy">
+
+  </div>
+
+</body>
+
+</html>
